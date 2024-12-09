@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#1B2C32"                 # Couleur principale des éléments interactifs
+backgroundColor = "#0E171A"             # Couleur de fond de la page principale
+secondaryBackgroundColor = "#1B2C32"    # Couleur de fond de la barre latérale
+textColor = "#FFFFFF"                   # Couleur principale du texte
+font = "sans serif"                     # Police

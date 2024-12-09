@@ -1,0 +1,38 @@
+from pages import dashborad_DataManagement, dashborad_Python
+
+pages = {
+    "Projet 1 ": dashborad_DataManagement.app,
+    "Projet 2 ": dashborad_Python.app,
+}
+
+
+def main():
+    
+    # LOGO
+    logo_path = "C:/Users/PC/Desktop/CV_Angelique_Bidot/librairy/Logo_AB_blanc.png"
+    st.image(logo_path, use_column_width=True)
+
+    st.title("Qui suis-je ?")
+    st.write("WIP")
+
+    st.sidebar.title("Navigation")
+    # Menu pour sélectionner une page
+    page = st.sidebar.radio("Aller à", list(pages.keys()))
+
+    # Appeler la fonction associée à la page sélectionnée
+    pages[page]()
+
+
+
+if __name__ == "__main__":
+    main()
+
+#customiser le rendu
+hide_st_style = """
+<style>
+#MainMenu {visibility : hidden;}
+footer {visibility : hidden;}
+header {visibility : hidden;}
+<style>"""
+
+st.markdown(hide_st_style, unsafe_allow_html=True)

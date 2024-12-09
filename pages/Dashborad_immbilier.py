@@ -2,10 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 
-
-
 def app():
-    st.title("Valeurs Foncières 2024")
     st.write("WIP_DataManagement")
 
     #import des fichiers
