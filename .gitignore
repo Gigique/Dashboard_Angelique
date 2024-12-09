@@ -1,0 +1,20 @@
+# Ignore les fichiers temporaires de l'éditeur
+*.swp
+*.bak
+*.tmp
+
+# Ignore les dossiers d'environnement Python
+__pycache__/
+*.py[cod]
+
+# Ignore les fichiers ou dossiers de configuration spécifiques
+.vscode/
+.idea/
+*.log
+
+# Ignore les fichiers générés par le système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignore les fichiers volumineux comme les CSV
+*.csv
