@@ -36,3 +36,22 @@ header {visibility : hidden;}
 <style>"""
 
 st.markdown(hide_st_style, unsafe_allow_html=True)
+
+from graph.Moyenne import moyenne
+from graph.Region import region
+from graph.Departement import departement
+from graph.Repartition import repartition 
+
+
+if pg.title == "Projets Valeurs Foncieres":
+        liste_graph = [
+            ("Moyenne des prix au m²", moyenne),
+            ("Nombre total des ventes selon la région", region),
+            ("Nombres de ventes par départements", departement),
+            ("Nombre de ventes selon le type de biens", repartition),]
+        
+        graph_chosen = st.sidebar.radio("Sélectionnez un graphique :", [x[0] for x in liste_graph])
+
+        for graph_name, graph_func in liste_graph:
+            if graph_chosen == graph_name:
+                graph_func()
