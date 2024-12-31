@@ -1,0 +1,2 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+librairy/clean_df_analysis.csv filter=lfs diff=lfs merge=lfs -text
