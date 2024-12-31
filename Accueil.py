@@ -23,9 +23,8 @@ def home_page():
                 
     📈Cette petite application a pour objectif de **montrer mes projets étudiants** pour vous donner un aperçu de mes compétences !
                 
-    ✉️ N'hésitez pas à découvrir mes projet et me contacter [ici](mailto:{angelebidot@gmail.com})
                 
                 
     **fun fact**✔️  
-    quand je ne travaille pas sur mes projets professionnels (data analyst ou écrivain), j'aime beaucoup sortir mon appareil photo et m'essayer à la photographie !
+    quand je ne travaille pas sur mes projets professionnels (data analyst ou écrivain), je m'essaie à la photographie !
     """, unsafe_allow_html=True)
