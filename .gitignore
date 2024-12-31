@@ -15,6 +15,3 @@ __pycache__/
 # Ignore les fichiers générés par le système d'exploitation
 .DS_Store
 Thumbs.db
-
-# Ignore les fichiers volumineux comme les CSV
-*.csv
