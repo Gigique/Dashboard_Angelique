@@ -104,7 +104,7 @@ def app_dashboard():
     right_column.plotly_chart(fig_detail)
 
 
-    st.markdown("""<h6 style="color:#E77866;">VVeuillez choisir un graphique dans la barre ci dessous pour plus de détail</h6>""", unsafe_allow_html=True)
+    st.markdown("""<h6 style="color:#E77866;">Veuillez choisir un graphique dans la barre ci dessous pour plus de détail</h6>""", unsafe_allow_html=True)
 
     liste_graph = {
         "Moyenne des prix au m²" : prix_m2,

@@ -3,6 +3,7 @@ import os
 
 from Accueil import home_page
 from Dashborad_Valeurs_Foncieres import app_dashboard, get_data
+from Etude_Statistiques import etude_stat
 from Dashborad_Course_Sportive import dashboard_sportif
 
 
@@ -18,7 +19,8 @@ def main():
     
     accueil = st.Page(home_page, title = "Home Page")
     projet1 = st.Page(app_dashboard, title = "Projets Valeurs Foncieres") 
-    projet2 = st.Page(dashboard_sportif, title = "Projets Course Sportive")
+    projet2 = st.Page(etude_stat, title = "Projets Statistique")
+    #projet3 = st.Page(dashboard_sportif, title = "Projets Course Sportive") 
     
     # Navigation des pages
     pg = st.navigation([accueil, projet1, projet2])
