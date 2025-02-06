@@ -18,8 +18,8 @@ base_dir = os.path.dirname(os.path.abspath(__file__))
 def main():
     
     accueil = st.Page(home_page, title = "Home Page")
-    projet1 = st.Page(app_dashboard, title = "Projets Valeurs Foncieres") 
-    projet2 = st.Page(etude_stat, title = "Projets Statistique")
+    projet1 = st.Page(app_dashboard, title = "Projet Valeurs Foncieres") 
+    projet2 = st.Page(etude_stat, title = "Etude Statistique")
     #projet3 = st.Page(dashboard_sportif, title = "Projets Course Sportive") 
     
     # Navigation des pages
