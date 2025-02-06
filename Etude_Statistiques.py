@@ -48,12 +48,24 @@ def etude_stat():
     
    st.markdown("""
    **Projet réalisé par un groupe de 4 étudiants dans le cadre du cours de Statistiques.**  
-    
+               
+   **🎯 Objectifs du projet**
+
+   Ce projet vise à explorer et analyser des données pour expliquer le taux d'insertion à la sortie d'un Master. 
+   Il a été réalisé sur Visual Code avec Python (en utilisant des libraries telles que Seaborn, Matplotlib, Pandas ou encore Plotly)
+               
+   **✔️ Compétences acquises**
+   
+   Nous avons analysé, transformé et visualisé les données afin de ne sélectionner que les valeurs intéressantes au projet.
+   Puis, nous avons visualisé nos données avec des graphiques dynamiques
+               
+   Et enfin, pour expliquer notre taux d'insertion, nous avons utilisé un modèle de régression linaire, et des test statistiques tels que le test de Goldfeld-Quandt, ou encore de Durbin-Watson.
+   
+            
+   **📊 Dataset**
+               
    Ce jeu de données provient du Ministère de l'Enseignement Supérieur et de la Recherche, et contient des informations sur l'insertion professionnelle des diplômés de Master en universités et établissements assimilés. 
-   
-   
-   Après une rapide analyse, un nettoyage et une sélection des données les plus intéressantes, nous avons réalisé notre analyse statistique. 
-   
+      
 
    **Liens utiles :**
    - Base de données utilisée [ici](https://explore.data.gouv.fr/fr/datasets/586dae65a3a7290df6f4be90/?Genre__exact=hommes#/resources/c7c9642b-9fa1-40a0-83d5-1615c15b4178)

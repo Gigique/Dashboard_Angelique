@@ -33,6 +33,19 @@ def app_dashboard():
     st.markdown("""
     **Projet réalisé par un groupe de 4 étudiants dans le cadre du cours de Data Management.**  
     
+    **🎯 Objectifs du projet**
+
+   Ce projet vise à explorer et analyser des données sur les valeurs foncières en France afin d'offrir une carte interractive sur le marché immobilier dans un temps donné. 
+   Il a été réalisé sur Visual Code avec Python (en utilisant des libraries telles que Seaborn, Matplotlib, Pandas ou encore Plotly) puis déployé sur Streamlit
+               
+   **✔️ Compétences acquises**
+   
+   Nous avons analysé, transformé et visualisé les données afin de ne sélectionner que les valeurs intéressantes au projet.
+   Puis, nous avons visualisé nos données en réalisant des graphiques dynamiques que nous avons déployés sur Streamlit. Ces graphiques hautement interractifs permettent d'avoir des analyses précises selon des emplacements géograhiques
+   Enfin, nous avons présenté et expliqué notre projet à un public                
+            
+   **📊 Dataset**
+           
     Ce jeu de données contient des informations sur les valeurs foncières géolocalisées du 01/01/2024 au 30/06/2024, avec des colonnes détaillant les transactions immobilières.
     Cela permet d'analyser les tendances foncières et immobilières sur le territoire français, et nous avons choisi de nous focaliser sur la France métropolitaine.
 
